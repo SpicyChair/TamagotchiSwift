@@ -14,6 +14,7 @@
 		FDB1CCC42798179800AB8A8B /* TamagotchiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */; };
 		FDB1CCD5279819D800AB8A8B /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */; };
 		FDB1CCDA2798230000AB8A8B /* TamagotchiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCD92798230000AB8A8B /* TamagotchiTest.swift */; };
+		FDB1CCE1279823E400AB8A8B /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB1CCE1279823E400AB8A8B /* Tamagotchi.swift in Sources */,
 				FDB1CCDA2798230000AB8A8B /* TamagotchiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

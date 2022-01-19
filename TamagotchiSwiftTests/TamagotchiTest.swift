@@ -10,21 +10,32 @@ import XCTest
 class TamagotchiTest: XCTestCase {
     
     
-    //RED
+    //GREEN
     func testEatingSnackDecreasesHungerByOne() throws {
         //arrange (set up)
+        let tamagotchi = Tamagotchi()
+        let expectedHunger = 4
         
         //act (perform the functionality we want to test)
+        tamagotchi.eatSnack()
+        
+        //assert (check it did what we expected)
+        XCTAssertEqual(tamagotchi.hunger, expectedHunger)
+    }
+    
+    //GREEN
+    func testWhereTamagotchiHasZeroHungerEatSnackKeepsHungerAtZero() throws {
+        //arrange (set up)
+        let tamagotchi = Tamagotchi()
+        
+        //act (perform the functionality we want to test)
+        for _ in 0...5 {
+            tamagotchi.eatSnack()
+        }
         
         
         //assert (check it did what we expected)
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        XCTAssertEqual(tamagotchi.hunger, 0)
     }
 
 }

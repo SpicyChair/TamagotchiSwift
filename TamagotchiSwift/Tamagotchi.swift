@@ -7,8 +7,16 @@
 
 import Foundation
 
-struct Tamagotchi {
-    var life:Int
-    var age:Int
+class Tamagotchi {
+    
+    var hunger:Int = 5
+   
+    func eatSnack() {
+        let reduceHungerBy = 1
+        
+        if self.hunger >= 1 {
+            self.hunger -= reduceHungerBy
+        }
+    }
     
 }
