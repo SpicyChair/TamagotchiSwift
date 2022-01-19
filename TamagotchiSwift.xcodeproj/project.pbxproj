@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB1CCA72798179600AB8A8B /* TamagotchiSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCA62798179600AB8A8B /* TamagotchiSwiftApp.swift */; };
+		FDB1CCA92798179600AB8A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCA82798179600AB8A8B /* ContentView.swift */; };
+		FDB1CCAB2798179800AB8A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB1CCAA2798179800AB8A8B /* Assets.xcassets */; };
+		FDB1CCAE2798179800AB8A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB1CCAD2798179800AB8A8B /* Preview Assets.xcassets */; };
+		FDB1CCB92798179800AB8A8B /* TamagotchiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */; };
+		FDB1CCC42798179800AB8A8B /* TamagotchiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB1CCB52798179800AB8A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB1CC9B2798179600AB8A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB1CCA22798179600AB8A8B;
+			remoteInfo = TamagotchiSwift;
+		};
+		FDB1CCC02798179800AB8A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB1CC9B2798179600AB8A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB1CCA22798179600AB8A8B;
+			remoteInfo = TamagotchiSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB1CCA32798179600AB8A8B /* TamagotchiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamagotchiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB1CCA62798179600AB8A8B /* TamagotchiSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiSwiftApp.swift; sourceTree = "<group>"; };
+		FDB1CCA82798179600AB8A8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDB1CCAA2798179800AB8A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB1CCAD2798179800AB8A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB1CCAF2798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB1CCB42798179800AB8A8B /* TamagotchiSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiSwiftTests.swift; sourceTree = "<group>"; };
+		FDB1CCBA2798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB1CCBF2798179800AB8A8B /* TamagotchiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiSwiftUITests.swift; sourceTree = "<group>"; };
+		FDB1CCC52798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB1CCA02798179600AB8A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCB12798179800AB8A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCBC2798179800AB8A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB1CC9A2798179600AB8A8B = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCA52798179600AB8A8B /* TamagotchiSwift */,
+				FDB1CCB72798179800AB8A8B /* TamagotchiSwiftTests */,
+				FDB1CCC22798179800AB8A8B /* TamagotchiSwiftUITests */,
+				FDB1CCA42798179600AB8A8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB1CCA42798179600AB8A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCA32798179600AB8A8B /* TamagotchiSwift.app */,
+				FDB1CCB42798179800AB8A8B /* TamagotchiSwiftTests.xctest */,
+				FDB1CCBF2798179800AB8A8B /* TamagotchiSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB1CCA52798179600AB8A8B /* TamagotchiSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCA62798179600AB8A8B /* TamagotchiSwiftApp.swift */,
+				FDB1CCA82798179600AB8A8B /* ContentView.swift */,
+				FDB1CCAA2798179800AB8A8B /* Assets.xcassets */,
+				FDB1CCAF2798179800AB8A8B /* Info.plist */,
+				FDB1CCAC2798179800AB8A8B /* Preview Content */,
+			);
+			path = TamagotchiSwift;
+			sourceTree = "<group>";
+		};
+		FDB1CCAC2798179800AB8A8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCAD2798179800AB8A8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDB1CCB72798179800AB8A8B /* TamagotchiSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */,
+				FDB1CCBA2798179800AB8A8B /* Info.plist */,
+			);
+			path = TamagotchiSwiftTests;
+			sourceTree = "<group>";
+		};
+		FDB1CCC22798179800AB8A8B /* TamagotchiSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */,
+				FDB1CCC52798179800AB8A8B /* Info.plist */,
+			);
+			path = TamagotchiSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB1CCA22798179600AB8A8B /* TamagotchiSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB1CCC82798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwift" */;
+			buildPhases = (
+				FDB1CC9F2798179600AB8A8B /* Sources */,
+				FDB1CCA02798179600AB8A8B /* Frameworks */,
+				FDB1CCA12798179600AB8A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamagotchiSwift;
+			productName = TamagotchiSwift;
+			productReference = FDB1CCA32798179600AB8A8B /* TamagotchiSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB1CCB32798179800AB8A8B /* TamagotchiSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB1CCCB2798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwiftTests" */;
+			buildPhases = (
+				FDB1CCB02798179800AB8A8B /* Sources */,
+				FDB1CCB12798179800AB8A8B /* Frameworks */,
+				FDB1CCB22798179800AB8A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB1CCB62798179800AB8A8B /* PBXTargetDependency */,
+			);
+			name = TamagotchiSwiftTests;
+			productName = TamagotchiSwiftTests;
+			productReference = FDB1CCB42798179800AB8A8B /* TamagotchiSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB1CCBE2798179800AB8A8B /* TamagotchiSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB1CCCE2798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwiftUITests" */;
+			buildPhases = (
+				FDB1CCBB2798179800AB8A8B /* Sources */,
+				FDB1CCBC2798179800AB8A8B /* Frameworks */,
+				FDB1CCBD2798179800AB8A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB1CCC12798179800AB8A8B /* PBXTargetDependency */,
+			);
+			name = TamagotchiSwiftUITests;
+			productName = TamagotchiSwiftUITests;
+			productReference = FDB1CCBF2798179800AB8A8B /* TamagotchiSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB1CC9B2798179600AB8A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FDB1CCA22798179600AB8A8B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FDB1CCB32798179800AB8A8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FDB1CCA22798179600AB8A8B;
+					};
+					FDB1CCBE2798179800AB8A8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FDB1CCA22798179600AB8A8B;
+					};
+				};
+			};
+			buildConfigurationList = FDB1CC9E2798179600AB8A8B /* Build configuration list for PBXProject "TamagotchiSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB1CC9A2798179600AB8A8B;
+			productRefGroup = FDB1CCA42798179600AB8A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB1CCA22798179600AB8A8B /* TamagotchiSwift */,
+				FDB1CCB32798179800AB8A8B /* TamagotchiSwiftTests */,
+				FDB1CCBE2798179800AB8A8B /* TamagotchiSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB1CCA12798179600AB8A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1CCAE2798179800AB8A8B /* Preview Assets.xcassets in Resources */,
+				FDB1CCAB2798179800AB8A8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCB22798179800AB8A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCBD2798179800AB8A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB1CC9F2798179600AB8A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1CCA92798179600AB8A8B /* ContentView.swift in Sources */,
+				FDB1CCA72798179600AB8A8B /* TamagotchiSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCB02798179800AB8A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1CCB92798179800AB8A8B /* TamagotchiSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1CCBB2798179800AB8A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1CCC42798179800AB8A8B /* TamagotchiSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB1CCB62798179800AB8A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB1CCA22798179600AB8A8B /* TamagotchiSwift */;
+			targetProxy = FDB1CCB52798179800AB8A8B /* PBXContainerItemProxy */;
+		};
+		FDB1CCC12798179800AB8A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB1CCA22798179600AB8A8B /* TamagotchiSwift */;
+			targetProxy = FDB1CCC02798179800AB8A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDB1CCC62798179800AB8A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB1CCC72798179800AB8A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB1CCC92798179800AB8A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TamagotchiSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TamagotchiSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB1CCCA2798179800AB8A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TamagotchiSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TamagotchiSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDB1CCCC2798179800AB8A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TamagotchiSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamagotchiSwift.app/TamagotchiSwift";
+			};
+			name = Debug;
+		};
+		FDB1CCCD2798179800AB8A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TamagotchiSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamagotchiSwift.app/TamagotchiSwift";
+			};
+			name = Release;
+		};
+		FDB1CCCF2798179800AB8A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TamagotchiSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TamagotchiSwift;
+			};
+			name = Debug;
+		};
+		FDB1CCD02798179800AB8A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TamagotchiSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spicychair.TamagotchiSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TamagotchiSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB1CC9E2798179600AB8A8B /* Build configuration list for PBXProject "TamagotchiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB1CCC62798179800AB8A8B /* Debug */,
+				FDB1CCC72798179800AB8A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB1CCC82798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB1CCC92798179800AB8A8B /* Debug */,
+				FDB1CCCA2798179800AB8A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB1CCCB2798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB1CCCC2798179800AB8A8B /* Debug */,
+				FDB1CCCD2798179800AB8A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB1CCCE2798179800AB8A8B /* Build configuration list for PBXNativeTarget "TamagotchiSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB1CCCF2798179800AB8A8B /* Debug */,
+				FDB1CCD02798179800AB8A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB1CC9B2798179600AB8A8B /* Project object */;
+}
