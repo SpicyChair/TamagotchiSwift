@@ -11,9 +11,9 @@
 		FDB1CCA92798179600AB8A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCA82798179600AB8A8B /* ContentView.swift */; };
 		FDB1CCAB2798179800AB8A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB1CCAA2798179800AB8A8B /* Assets.xcassets */; };
 		FDB1CCAE2798179800AB8A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB1CCAD2798179800AB8A8B /* Preview Assets.xcassets */; };
-		FDB1CCB92798179800AB8A8B /* TamagotchiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */; };
 		FDB1CCC42798179800AB8A8B /* TamagotchiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */; };
 		FDB1CCD5279819D800AB8A8B /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */; };
+		FDB1CCDA2798230000AB8A8B /* TamagotchiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1CCD92798230000AB8A8B /* TamagotchiTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +41,12 @@
 		FDB1CCAD2798179800AB8A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDB1CCAF2798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB1CCB42798179800AB8A8B /* TamagotchiSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiSwiftTests.swift; sourceTree = "<group>"; };
 		FDB1CCBA2798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB1CCBF2798179800AB8A8B /* TamagotchiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB1CCC32798179800AB8A8B /* TamagotchiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiSwiftUITests.swift; sourceTree = "<group>"; };
 		FDB1CCC52798179800AB8A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
+		FDB1CCD92798230000AB8A8B /* TamagotchiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 		FDB1CCB72798179800AB8A8B /* TamagotchiSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				FDB1CCB82798179800AB8A8B /* TamagotchiSwiftTests.swift */,
 				FDB1CCBA2798179800AB8A8B /* Info.plist */,
+				FDB1CCD92798230000AB8A8B /* TamagotchiTest.swift */,
 			);
 			path = TamagotchiSwiftTests;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB1CCB92798179800AB8A8B /* TamagotchiSwiftTests.swift in Sources */,
+				FDB1CCDA2798230000AB8A8B /* TamagotchiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

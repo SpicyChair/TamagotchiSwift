@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Tamagotchi! Pleased to meet you!")
-            .padding()
+        Form {
+            
+            Image("Egg")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            
+            VStack(alignment: .trailing){
+                Text("Health: 100")
+                Text("Fun: 100")
+                Text("Cleanliness: 100")
+                Text("Hunger: 100")
+            
+            }
+        }
     }
 }
 
