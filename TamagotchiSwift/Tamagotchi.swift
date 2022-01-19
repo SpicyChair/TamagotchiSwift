@@ -8,5 +8,7 @@
 import Foundation
 
 struct Tamagotchi {
-    var health:Int
+    var life:Int
+    var age:Int
+    
 }
