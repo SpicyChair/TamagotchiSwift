@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State var tamagotchi:Tamagotchi = Tamagotchi()
+    
+    
     var body: some View {
         Form {
             
@@ -22,10 +27,11 @@ struct ContentView: View {
             Section {
                 Text("Status")
                     .bold()
-                Text("\("Health:".padding(toLength: 15, withPad: " ", startingAt: 0))    \(String(repeating: " ○ ", count: 5))")
-                Text("\("Fun:".padding(toLength: 15, withPad: " ", startingAt: 0))      \(String(repeating: " ○ ", count: 5))")
-                Text("\("Cleanliness:".padding(toLength: 15, withPad: " ", startingAt: 0)) \(String(repeating: " ○ ", count: 5))")
-                Text("\("Hunger:".padding(toLength: 15, withPad: " ", startingAt: 0))   \(String(repeating: " ○ ", count: 5))")
+                Text("\("Health:".padding(toLength: 15, withPad: " ", startingAt: 0))    \(String(repeating: " ○ ", count: tamagotchi.health))")
+                Text("\("Fun:".padding(toLength: 15, withPad: " ", startingAt: 0))      \(String(repeating: " ○ ", count: tamagotchi.fun))")
+                Text("\("Cleanliness:".padding(toLength: 15, withPad: " ", startingAt: 0)) \(String(repeating: " ○ ", count: tamagotchi.cleanliness))")
+                Text("\("Hunger:".padding(toLength: 15, withPad: " ", startingAt: 0))   \(String(repeating: " ○ ", count: tamagotchi.hunger))")
+
             }
             
             Section {
@@ -33,7 +39,7 @@ struct ContentView: View {
                     .bold()
                 
                 
-                Button(action: {}) {
+                Button(action: {tamagotchi.eatSnack()}) {
                     Text("Feed snack")
                 }
                 Button(action: {}) {
@@ -45,7 +51,7 @@ struct ContentView: View {
                 Button(action: {}) {
                     Text("Give medicine")
                 }
-                Button(action: {}) {
+                Button(action: {tamagotchi.attack()}) {
                     Text("Attack Tamagotchi")
                 
                 }
