@@ -16,28 +16,43 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
             
             Section {
-                VStack(alignment: .trailing, spacing: 10) {
-                    Text("Health: \(String(repeating: " ○", count: 5))")
-                    Text("Fun: \(String(repeating: " ○", count: 5))")
-                    Text("Cleanliness: \(String(repeating: " ○", count: 5))")
-                    Text("Hunger: \(String(repeating: " ○", count: 5))")
-                
-                }.padding()
-                
+                Text("This is what your Tamagotchi is saying to you!")
             }
+            
+            Section {
+                Text("Status")
+                    .bold()
+                Text("\("Health:".padding(toLength: 15, withPad: " ", startingAt: 0))    \(String(repeating: " ○ ", count: 5))")
+                Text("\("Fun:".padding(toLength: 15, withPad: " ", startingAt: 0))      \(String(repeating: " ○ ", count: 5))")
+                Text("\("Cleanliness:".padding(toLength: 15, withPad: " ", startingAt: 0)) \(String(repeating: " ○ ", count: 5))")
+                Text("\("Hunger:".padding(toLength: 15, withPad: " ", startingAt: 0))   \(String(repeating: " ○ ", count: 5))")
+            }
+            
             Section {
                 Text("Actions")
                     .bold()
-                VStack {
-                    Button("Feed snack", () -> continue)
-                    Button("Feed meal", () -> continue)
-                    Button("Play with pet", () -> continue)
-                    Button("Give medicine", () -> continue)
-                    Button("Give medicine", () -> continue)
-                    Button("Hit Tamagotchi", () -> continue)
+                
+                
+                Button(action: {}) {
+                    Text("Feed snack")
                 }
+                Button(action: {}) {
+                    Text("Feed meal")
+                }
+                Button(action: {}) {
+                    Text("Play with pet")
+                }
+                Button(action: {}) {
+                    Text("Give medicine")
+                }
+                Button(action: {}) {
+                    Text("Attack Tamagotchi")
+                
+                }
+                
             }
-        }
+            
+        }.listStyle(InsetGroupedListStyle())
     }
 }
 

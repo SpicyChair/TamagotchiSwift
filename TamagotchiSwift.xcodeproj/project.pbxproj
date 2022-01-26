@@ -75,9 +75,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDA552B327A15A1D00C42E87 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FDA552B427A15A2A00C42E87 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		FDB1CC9A2798179600AB8A8B = {
 			isa = PBXGroup;
 			children = (
+				FDA552B427A15A2A00C42E87 /* New Group */,
+				FDA552B327A15A1D00C42E87 /* model */,
 				FDB1CCA52798179600AB8A8B /* TamagotchiSwift */,
 				FDB1CCB72798179800AB8A8B /* TamagotchiSwiftTests */,
 				FDB1CCC22798179800AB8A8B /* TamagotchiSwiftUITests */,
@@ -103,7 +120,6 @@
 				FDB1CCAA2798179800AB8A8B /* Assets.xcassets */,
 				FDB1CCAF2798179800AB8A8B /* Info.plist */,
 				FDB1CCAC2798179800AB8A8B /* Preview Content */,
-				FDB1CCD4279819D800AB8A8B /* Tamagotchi.swift */,
 			);
 			path = TamagotchiSwift;
 			sourceTree = "<group>";
